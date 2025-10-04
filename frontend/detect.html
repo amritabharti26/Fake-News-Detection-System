@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fake News Detector - Detect</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">FakeNewsDetector</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="detect.html" class="active">Detect</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="section detect-page">
+    <h2>Detect Fake News</h2>
+    <textarea id="newsText" placeholder="Paste your news text here..."></textarea>
+    <button onclick="checkNews()">Check News</button>
+    <div id="result"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
